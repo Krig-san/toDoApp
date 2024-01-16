@@ -9,10 +9,10 @@
 ### COMMIT (ajout et envoie)
 
 - `git add .` => ajoute tous les changements locaux à git
-- `git add -p`` => ajoute les changements un par un (attention, n'ajoute pas les fichiers/dossiers crées, il faut les ajouter à la main avec git add nomdufichier)
+- `git add -p` => ajoute les changements un par un (attention, n'ajoute pas les fichiers/dossiers crées, il faut les ajouter à la main avec git add nomdufichier)
 - `git status` => permet de vérifier les changement ajoutés et prêts à être commit
 - `git commit -m "feat: blabla"` => commit les changement (les changement prêts à être envoyés dans le cloud)
-- ` git push`` => envoie les changement sur la branche vers la branche du repository qui est dans le cloud ( `git push -f`` pour forcer un push)
+- ` git push -u origin master`ou `main` => envoie les changement sur la branche vers la branche du repository qui est dans le cloud ( `git push -f`` pour forcer un push)
 
 ### LOG (vérifications, infos)
 
